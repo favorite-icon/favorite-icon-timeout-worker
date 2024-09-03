@@ -1,0 +1,40 @@
+{
+  "name": "favorite-icon-timeout-worker",
+  "version": "1.0.5",
+  "description": "Timeout worker for favicon",
+  "main": "dist/index.common.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "author": {
+    "name": "Denis Seleznev",
+    "email": "hcodes@yandex.ru",
+    "url": "https://github.com/favorite-icon/favorite-icon-timeout-worker"
+  },
+  "license": "MIT",
+  "keywords": [
+    "favorite icon",
+    "favicon",
+    "favico",
+    "worker",
+    "timeout"
+  ],
+  "scripts": {
+    "test": "npm run typecheck",
+    "build": "rollup --config rollup.config.mjs && node tools/replaceWorker.mjs",
+    "prepare": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },  
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.21.2",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
+  },  
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
+}
