@@ -1,4 +1,4 @@
-⏱️ Favicon Timeout Worker
+⏱️ Favorite Icon Timeout Worker
 =============
 
 [![NPM version](https://img.shields.io/npm/v/favorite-icon-timeout-worker.svg?style=flat)](https://www.npmjs.com/package/favorite-icon-timeout-worker)
