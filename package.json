@@ -1,6 +1,6 @@
 {
   "name": "favorite-icon-timeout-worker",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Timeout worker for favicon",
   "main": "dist/index.common.js",
   "module": "dist/index.esm.js",
@@ -10,6 +10,10 @@
     "email": "hcodes@yandex.ru",
     "url": "https://github.com/favorite-icon/favorite-icon-timeout-worker"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/favorite-icon/favorite-icon-timeout-worker.git"
+  },  
   "license": "MIT",
   "keywords": [
     "favorite icon",
